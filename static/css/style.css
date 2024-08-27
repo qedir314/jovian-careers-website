@@ -1,25 +1,5 @@
-#container {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-h1 {
-    font-size: 40px;
-    font-family: 'Arial';
-    font-weight: normal;
-    color: rgb(50, 25, 25);
-}
-
-
-.bodytext {
-    font-size: 20px;
-    color: rgb(200, 25, 25);
-
-#photo{
-    height: 300px;
+#photo {
+    width: 325px;
+    height: 100%;
     object-fit: cover;
 }
-
-
