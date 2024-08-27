@@ -11,19 +11,20 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center mt-2 mb-3">Jovian
-            Careers</h1>
+        <h1 class="text-center mt-2 mb-3">{{company_name}} Careers</h1>
         <div class="text-center">
-            <img id="photo"
-                 class="img-fluid"
-                 src="https://i.gifer.com/1ABW.gif" alt="#">
+            <img id="photo" class="img-fluid" src="https://i.gifer.com/1ABW.gif" alt="#">
         </div>
         <h2 class="text-center mt-2 mb-3">About Jovian</h2>
         <p class="lead">
             Jovian is a platform that connects job seekers with employers. We help job seekers find the right job and employers find the right candidates.
         </p>
         <h2 class="text-center">Open Positions</h2>
-        <p>TODO - Show the jobs</p>
+        <div>
+            {% for job in jobs %}
+                {% include 'jobitems.html' %}
+            {% endfor %}
+        </div>
         <div class="text-center">
             <button class="btn btn-primary btn-lg">Contact Us</button>
             <p class="mt-3">Copyright 2024, Jovian</p>
