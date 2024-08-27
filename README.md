@@ -14,7 +14,8 @@ This is a simple Flask web application that lists job opportunities and provides
 
    ```bash
    git clone https://github.com/qedir314/jovian-careers-website.git
-   cd Flask-Introduction
+   cd jovian-careers-website
+   ```
 2. **Install the required dependencies:**
     ```bash
     pip install Flask
